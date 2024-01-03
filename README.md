@@ -1,21 +1,22 @@
 # FizzBuzz
 
-**TODO: Add description**
+This code corresponding to the [Section 2 - Elixir e Phoenix do Zero by Rafael Camarda](https://www.udemy.com/course/elixir-e-phoenix-do-zero) lab.
 
-## Installation
+> The project simulates the processing of a txt files, and replaces all numbers that are multiples of 3 with ´:fizz´, multiples of 5 with ´:buzz´, and multiples of 3 and 5 with ´:fizzbuzz´.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fizz_buzz` to your list of dependencies in `mix.exs`:
+## Compilation, tests and runs
 
-```elixir
-def deps do
-  [
-    {:fizz_buzz, "~> 0.1.0"}
-  ]
-end
+```bash
+$ cd fizz_buzz
+$ mix compile
+$ mix test
+$ iex -S mix
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/fizz_buzz>.
+## How to use?
+
+```elixir
+# build numbers with :fizz, :buzz, and/or :fizzbuzz
+iex> FizzBuzz.build("numbers.txt")
+```
 
