@@ -8,6 +8,7 @@ This code corresponding to the [Section 2 - Elixir e Phoenix do Zero by Rafael C
 
 ```bash
 $ cd fizz_buzz
+$ asdf install
 $ mix compile
 $ mix test
 $ iex -S mix
